@@ -10,11 +10,6 @@ void print_unsigned_number(unsigned int n, int *sum)
 	unsigned int num = n;
 	char tmp;
 
-	if (n < 0)
-	{
-		*sum += _putchar('-');
-		num = -num;
-	}
 	if (num > 9)
 	{
 
